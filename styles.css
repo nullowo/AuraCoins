@@ -1,0 +1,82 @@
+.div1 {
+  font-style: bold;
+  font-size: large;
+  font-family: monospace;
+  text-align: center;
+  background-color: lightpink;
+  border-radius: 10px;
+}
+.div2 {
+  font-size: large;
+  text-align: center;
+  font-family: monospace;
+  font-style: bold;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.left-side {
+  display: flex;
+}
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 1.1em;
+}
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+.nav-link-wrapper a {
+  color: black;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-text {
+  margin-left: 20px;
+  width: 50%;
+  margin-top: 80px;
+  margin-bottom: 15px;
+  font-size: medium;
+}
+.pricing {
+  text-align: right;
+  margin: 20px;
+  font-size: large;
+}
+.img1 {
+  margin-top: 15px;
+}
+.italix {
+  font-style: italic;
+}
+.submit {
+  color: aquamarine;
+  text-align: right;
+  margin: 25em;
+}
+.title1 {
+  text-align: center;
+  color: #add8e6;
+  text-shadow: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.title2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.container00 {
+  text-align: center;
+}
